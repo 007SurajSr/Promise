@@ -1,4 +1,4 @@
-const promise1 = new Promise((resolve,reject)=>{
+const promise1 = new Promise((resolve,reject)=>{                                      // type-1
     setTimeout(() =>{
         resolve();
     },1000);
@@ -6,4 +6,5 @@ const promise1 = new Promise((resolve,reject)=>{
     const arr = [ promise1, Promise.resolve(300), Promise.resolve(500)];
     const promise123 = Promise.all(arr);
 
-    const obj123 = [Promise.resolve(200), Promise.resolve(400), Promise.resolve(700)];
+    const obj123 = [Promise.resolve(200), Promise.resolve(400), Promise.resolve(700)];   // type-2
+
