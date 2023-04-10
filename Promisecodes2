@@ -1,0 +1,1 @@
+const obj123 = Promise.resolve(200);
